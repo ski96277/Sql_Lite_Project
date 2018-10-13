@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/background_color"
+    android:fillViewport="true"
+    tools:context=".Activity.Update_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10sp">
+
+        <EditText
+            android:id="@+id/name_ET_update_ID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7sp"
+            android:background="@drawable/edittext_shap"
+            android:gravity="center"
+            android:hint="Name"
+            android:textColor="@color/black_color"
+            android:textColorHint="@color/hint_color" />
+
+        <EditText
+            android:id="@+id/email_ET_update_ID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7sp"
+            android:background="@drawable/edittext_shap"
+            android:gravity="center"
+            android:hint="E-mail"
+            android:textColor="@color/black_color"
+            android:textColorHint="@color/hint_color" />
+
+        <EditText
+            android:id="@+id/phone_ET_update_ID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7sp"
+            android:background="@drawable/edittext_shap"
+            android:gravity="center"
+            android:hint="Phone"
+            android:inputType="number"
+            android:textColor="@color/black_color"
+            android:textColorHint="@color/hint_color" />
+
+        <Button
+            android:id="@+id/submit_btn_update_ID"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7sp"
+            android:background="@drawable/buttonshap"
+            android:onClick="update_Information"
+            android:text="Update"
+            android:textAllCaps="false"
+            android:textColor="@color/black_color"
+            android:textSize="30sp" />
+
+
+    </LinearLayout>
+</ScrollView>
